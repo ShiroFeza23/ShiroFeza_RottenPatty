@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "rottenpatty:rotten_patty"
+  },
+  "result": "rottenpatty:cooked_patty",
+  "experience": 0.35,
+  "cookingtime": 100
+}
