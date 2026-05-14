@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "PPP",
+    "GGG"
+  ],
+  "key": {
+    "P": {
+      "item": "rottenpatty:cooked_patty_block"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "rottenpatty:golden_patty_block",
+    "count": 3
+  }
+}

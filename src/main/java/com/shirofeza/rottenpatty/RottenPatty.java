@@ -110,6 +110,7 @@ public class RottenPatty
             event.accept(ModItems.ROTTEN_PATTY.get());
             event.accept(ModItems.COOKED_PATTY.get());
             event.accept(ModItems.COOKED_PATTY_BLOCK.get());
+            event.accept(ModItems.GOLDEN_PATTY_BLOCK.get());
         }
     }
 

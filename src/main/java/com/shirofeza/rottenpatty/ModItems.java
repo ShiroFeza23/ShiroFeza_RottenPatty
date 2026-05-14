@@ -46,5 +46,21 @@ public class ModItems {
                             .nutrition(10)
                             .saturationMod(0.6f)
                             .build())
-                    .stacksTo(16)));
+                    .stacksTo(64)));
+
+    // Golden Patty Block
+    public static final RegistryObject<Block> GOLDEN_PATTY_BLOCK = BLOCKS.register("golden_patty_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_ORANGE)
+                    .sound(SoundType.WOOD)
+                    .strength(0.5f)));
+
+    public static final RegistryObject<Item> GOLDEN_PATTY_BLOCK_ITEM = ITEMS.register("golden_patty_block",
+            () -> new BlockItem(GOLDEN_PATTY_BLOCK.get(), new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(12)
+                            .saturationMod(0.8f)
+                            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1200, 0), 1.0f)
+                            .build())
+                    .stacksTo(64)));
 }
