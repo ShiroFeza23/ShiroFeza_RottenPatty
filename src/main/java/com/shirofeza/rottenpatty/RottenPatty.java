@@ -75,6 +75,7 @@ public class RottenPatty
         ITEMS.register(modEventBus);
          */
         ModItems.ITEMS.register(modEventBus);
+        ModItems.BLOCKS.register(modEventBus);
 
         // Register the Deferred Register to the mod event bus so tabs get registered
         // CREATIVE_MODE_TABS.register(modEventBus);
@@ -108,6 +109,7 @@ public class RottenPatty
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.ROTTEN_PATTY.get());
             event.accept(ModItems.COOKED_PATTY.get());
+            event.accept(ModItems.COOKED_PATTY_BLOCK.get());
         }
     }
 

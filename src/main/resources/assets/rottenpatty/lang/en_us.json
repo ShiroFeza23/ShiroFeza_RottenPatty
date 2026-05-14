@@ -1,4 +1,5 @@
 {
   "item.rottenpatty.rotten_patty": "Rotten Patty",
-  "item.rottenpatty.cooked_patty": "Cooked Patty"
+  "item.rottenpatty.cooked_patty": "Cooked Patty",
+  "block.rottenpatty.cooked_patty_block": "Block of Cooked Patty"
 }

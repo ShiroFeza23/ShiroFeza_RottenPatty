@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "rottenpatty:cooked_patty"
+    }
+  },
+  "result": {
+    "item": "rottenpatty:cooked_patty_block",
+    "count": 1
+  }
+}
