@@ -2,6 +2,8 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
@@ -10,10 +12,10 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rottenpatty:cooked_patty_block"
+          "name": "rottenpatty:golden_patty_block"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ]
+  ],
+  "random_sequence": "rottenpatty:golden_patty_block"
 }
